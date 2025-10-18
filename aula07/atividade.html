@@ -9,16 +9,10 @@
     <form action="#">
         <input type="text" name="nome" id="nome">
         <input type="number" name="idade" id="idade">
-        <button type="button" onclick="console.log('fui clicado'); alert('teste');">
+        <button type="button"
+            onclick="let nome='joao';let idade='18'; console.log(nome + '-' + idade); alert('teste')">
             Click-me
         </button>
     </form>
-    <script>
-        let nome='joao'
-        let idade=17
-        console.log("ola" +" NOME " + 'tudo bem com você?' );
-        console.log('voce nasceu em ' + (2025 - idade));
-        alert('bem vindo ao Senai - bauru')
-    </script>
 </body>
 </html>
